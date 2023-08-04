@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     background: #121212;
-  padding: 2% 4%;
-  gap: 2rem;
-  padding-top: 5rem;
- 
+  /* padding: 2% 4%; */
+  gap: 8%;
+  height: 100vh;
+  justify-content: center;
+  /* padding-top: 5rem; */
+  background-image: url(../../assets/linebg.svg) ;
 }
 .div1>:nth-child(1){
     color: #FFF;
@@ -20,7 +22,8 @@ line-height: 40px; /* 133.333% */
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 1rem;
+    /* margin-top: 6rem; */
+    margin: 0% 9%;
 }
 .products{
     display: flex;
@@ -58,7 +61,8 @@ line-height: normal;
     align-items: center;
     justify-content: space-around;
     margin-top: 6rem;
-    padding: 0% 8%;
+    padding: 6% 8% 0%;
+    margin: 0% 9%;
 }
 .services{
     display: flex;
@@ -95,8 +99,8 @@ line-height: normal;
 
 
     display: flex;
-    width: 211px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     /* padding: 46px 16px; */
     justify-content: center;
     align-items: center;
@@ -111,14 +115,20 @@ line-height: normal;
 .products:hover .test{
     visibility: visible;
     cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
 }
 @media  screen and (min-width: 769px) and (max-width: 999px){
     .test{
         height: 157px;
         width: 136px;
-        font-size: 8px;
+       
         padding: 1% 5%;
     }
+    .test>:nth-child(1){
+        font-size: 11px;
+    }
+   
     .imgs{
         height: 80px;
         width: 140px;
@@ -129,20 +139,22 @@ line-height: normal;
      
     }
 }
-
-@media screen and (max-width:768px){
-    /* .container{
-        position: relative;
-        z-index: 1;
-    } */
+@media  screen and (min-width: 530px) and (max-width: 767px){ 
     .test{
-        height: 95px;
-        width: 120px;
-        padding: 2% 5%;
-        font-size: 8px;
+        height: 100px;
+        width: 188px;
+       
     }
+    .test>:nth-child(1){
+        font-size: 10px;
+    }
+    
     .container{
-        gap: 0;
+        /* gap: 0; */
+        height: fit-content;
+        padding: 16% 6%;
+        gap: 1rem;
+        background-image: url(../../assets/linebgmbl.svg) ;
     }
 
     .div1>:nth-child(1){
@@ -152,6 +164,7 @@ line-height: normal;
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
+        margin-bottom: 2rem;
     }
     .products{
         width: 40%;
@@ -168,6 +181,7 @@ line-height: normal;
     }
     .products>:nth-child(2){
         font-size: 12px;
+        width: 100%;
     }
 
     .services>img{
@@ -178,19 +192,106 @@ line-height: normal;
     }
     .carrow{
         width: 28px;
-        height: 26px;
+        height: 22px;
         margin-top: -10px;
     }
     .div3{
-        padding: 0% 6%;
+        /* padding: 0% 6%; */
+        margin: 0;
+        justify-content: center;
         padding-bottom: 6%;
+        gap: 0.6rem;
+        
+    }
+
+    .products>:nth-child(3){
+        font-size: 15px;
+    }
+    .services{
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:530px){
+    /* .container{
+        position: relative;
+        z-index: 1;
+    } */
+    /* .test{
+        height: 95px;
+        width: 120px;
+        padding: 2% 5%;
+        font-size: 8px;
+    } */
+    .test{
+        height: 110px;
+        width: 125px;
+        padding: 2% 5%;
+        font-size: 8px;
+    }
+    .test>:nth-child(1){
+        font-size: 10px;
+    }
+
+    .container{
+        /* gap: 0; */
+        height: fit-content;
+        padding: 16% 6%;
+        gap: 1rem;
+        background-image: url(../../assets/linebgmbl.svg) ;
+    }
+
+    .div1>:nth-child(1){
+        font-size: 20px;
+    }
+    .div2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    .products{
+        width: 40%;
+    }
+    .imgs{
+        height: 50px;
+        width: 115px;
+    }
+    .btv{
+        height: 50px;
+        width: 115px;
+        /* margin-bottom: 4px; */
+       
+    }
+    .products>:nth-child(2){
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .services>img{
+        height: 40px;
+    }
+    .services>:nth-child(2){
+        font-size: 10px;
+    }
+    .carrow{
+        width: 28px;
+        height: 22px;
+        margin-top: -10px;
+    }
+    .div3{
+        /* padding: 0% 6%; */
+        margin: 0;
+        justify-content: center;
+        padding-bottom: 6%;
+        gap: 0.6rem;
+        
+    }
+
+    .products>:nth-child(3){
+        font-size: 15px;
+    }
+    .services{
+        gap: 1rem;
     }
     }
-
-
-
-
-
-
-
-

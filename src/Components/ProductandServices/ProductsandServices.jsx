@@ -6,7 +6,7 @@ import Inv from "../../assets/tech-consultancy.svg"
 
 
 import Batcave from "../../assets/batcave-k.svg" 
-import Trib from "../../assets/tributornew.png"
+import Trib from "../../assets/tclogonew.png"
 
 import IT1 from "../../assets/itservice.svg"
 import IT2 from "../../assets/itconsultancy.svg"
@@ -59,12 +59,14 @@ const ProductsandServices = () => {
             </div>
             <div className={css.products}>
                 <div className={css.test}>
+                    <span>
                     The Green Castle Construction Company,with 17 years of expertise,delivers
                     cutting-edge,eco-construction solution for a greenr future.Empowering clients
                     with modern and innovative construction process.
+                    </span>
                 </div>
                 <img className={css.imgs} src={Green} alt="" />
-                <span>Green Castel</span>
+                <span>Green Castle</span>
             </div>
          
         </div>

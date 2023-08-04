@@ -11,6 +11,7 @@ import { Link } from 'react-scroll'
 
 
 const Footer = () => {
+    const mobile = window.innerWidth <= 768 ? true : false;
   return (
     <div className={css.container}>
 
@@ -93,7 +94,7 @@ DB Road, RS Puram, Coimbatore - 641002</span>
             <li> <Link to="about" spy={true} smooth={true}> About  </Link> </li>
         <li> <Link to="contact" spy={true} smooth={true}> Contact </Link> </li> 
             <li>Privacy Policy</li>
-            <li>Terms & Conditions</li>
+        {mobile?  <li>T & C</li> : <li>Terms & Conditions</li> }   
         </ul>
         {/* </div> */}
 

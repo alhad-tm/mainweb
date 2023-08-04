@@ -3,10 +3,11 @@
     background: linear-gradient(0deg, rgba(18, 18, 18, 0.80) 0%, rgba(18, 18, 18, 0.80) 100%), 
     url(../../assets/cloud.png), lightgray 0px 0px / 100% 104.113% no-repeat;
     color: yellowgreen;
-    /* height: 800px; */
+    height: 710px;
     padding: 2% 6%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
     /* padding-bottom: 3.2rem; */
     padding-top: 1rem;
@@ -99,8 +100,13 @@ line-height: normal;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    /* justify-content: center; */
     gap: 1rem;
-    padding: 4% 4%;
+   
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    padding-top: 8%;
     /* width: 20%; */
     text-align: left;
     height: 235px;
@@ -118,6 +124,7 @@ line-height: normal;
     line-height: normal;
     width: 101%;
     text-align: center;
+   
 }
 .box2>:nth-child(2){
     color: #B3B3B3;
@@ -149,7 +156,7 @@ text-align: center
     color: rgb(12, 204, 169);width: 100px;height: 100px;position: absolute;
     top: 0;right: 0;
 }
-@media  screen and (min-width: 769px) and (max-width: 999px){
+/* @media  screen and (min-width: 769px) and (max-width: 999px){
     .box2{
         height: 303px;
     }
@@ -164,8 +171,13 @@ text-align: center
     .div3{
         height: 343px;
     }
-}
+} */
 @media screen and (max-width:786px){
+    .container{
+        height: 361px;
+        background-image: url(../../assets/cloud.png);
+        background-size: inherit;
+    }
    
     .div1>:nth-child(1){
         font-size: 14px;
@@ -224,7 +236,11 @@ text-align: center
         flex-wrap: wrap;
         flex-direction: column;
         gap: 0.7rem;
-        padding: 4% 4%;
+        /* padding: 4% 4%; */
+        padding-top: 1rem;
+        padding-bottom: 1%;
+        padding-right: 4%;
+        padding-left: 4%;
         /* width: 20%; */
         text-align: left;
         height: 185px;
@@ -248,8 +264,8 @@ text-align: center
 
     
 }
-@media  screen and (min-width: 800px) and (max-width: 1110px){
+/* @media  screen and (min-width: 800px) and (max-width: 1110px){
 .box2>:nth-child(2){
     font-size: 16px;
 }
-}
+} */
