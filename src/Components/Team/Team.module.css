@@ -175,8 +175,8 @@ text-align: center
 @media screen and (max-width:786px){
     .container{
         height: 361px;
-        background-image: url(../../assets/cloud.png);
-        background-size: inherit;
+        background-image: url(../../assets/cloud-bgnew2.png);
+        background-size: cover;
     }
    
     .div1>:nth-child(1){
