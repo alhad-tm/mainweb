@@ -38,9 +38,9 @@ DB Road, RS Puram, Coimbatore - 641002</span>
     <a href="mailto: contact@invicious.in"> <span className={css.aspan} >contact@invicious.in</span> </a>  
     </div>
     <div className={css.socialiconsnew}>
-        <img src={Twitter} alt="" />
-        <img src={Fb} alt="" />
-        <img src={Insta} alt="" />
+    <a href="https://twitter.com/Invicious_in?s=08">  <img src={Twitter} alt="" />    </a>   
+              <img src={Fb} alt="" />  
+            <a href="https://instagram.com/invicious.in?igshid=MzRlODBiNWFlZA==">  <img src={Insta} alt="" /></a> 
     </div>
    
 </div>

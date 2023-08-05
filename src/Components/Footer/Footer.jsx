@@ -29,14 +29,14 @@ Join us on our mission to make a positive impact and build a brighter tomorrow.<
                 <img src={Fb} alt="" />
                 <img src={Insta} alt="" /> */}
                 <a href="https://twitter.com/Invicious_in?s=08">  <img src={Twitter} alt="" />    </a>   
-           <a href="https://www.linkedin.com/company/invicious">  <img src={Fb} alt="" /> </a>  
+              <img src={Fb} alt="" />  
             <a href="https://instagram.com/invicious.in?igshid=MzRlODBiNWFlZA==">  <img src={Insta} alt="" /></a> 
             </div>
             </div>
 <div className={css.wrap}>
             <div className={css.m2}>
                 <span>Products & Services</span>
-                <span>Invicious - IT Consultancy</span>
+                <span>Invicious Consultancy Service</span>
                 <span>Batcave</span>
                 <span>Tributors</span>
                 <span>Green Castle</span>

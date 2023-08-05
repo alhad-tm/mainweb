@@ -27,6 +27,7 @@
 .icons{
     display: flex;
     gap: 0.7rem;
+    align-items: baseline;
 }
 
 .m2{
@@ -149,6 +150,7 @@ margin-top: 2rem;
     .icons{
         display: flex;
         justify-content: center;
+        align-items: baseline;
     }
     /* .m1,.m4{
         width: 80%;

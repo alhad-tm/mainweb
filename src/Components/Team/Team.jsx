@@ -58,7 +58,7 @@ const Team = () => {
             <SwiperSlide> 
         <div className={css.box2}>
         <span>Barathi M S</span>
-            <span>Co-founder & CEO</span>
+            <span>CEO</span>
             <span>With a diverse set of skills that spans across the entire spectrum
                of software development, and a wealth of experience, Barathi works
                 meticulously to drive Invicious forward in the fast-paced world
@@ -99,7 +99,7 @@ const Team = () => {
         <SwiperSlide> 
         <div className={css.box2}>
             <span>Karthikeyan</span>
-            <span>UI/UX Designer</span>
+            <span>Chief Designer</span>
             <span>As a UI/UX Designer at invicious, Karthikeyan has a strong sense of product research & development of a responsible product based on high-fidelity prototypes, Integrating user-centered designs and technologies.</span>
         </div>  </SwiperSlide>
         </Swiper> 

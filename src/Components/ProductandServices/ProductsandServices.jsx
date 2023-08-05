@@ -1,6 +1,6 @@
 import React from 'react'
 import css from "./ProductsandServices.module.css"
-import Inv from "../../assets/tech-consultancy.svg"
+import Inv from "../../assets/consultancy-logo-new.svg"
 // import Batcave from "../../assets/btv.svg"
 // import Batcave from "../../assets/batcavenew.svg"
 
@@ -27,7 +27,7 @@ const ProductsandServices = () => {
         <div className={css.div2}>
             <div className={css.products}>
                 <div className={css.test}>
-                    <span>Invicious Tech Consultancy:
+                    <span>Invicious Consultancy Services:
                         Levering three years of expertise, we empower
                         businesses with cutting-edge IT solutionsand expert guidance for
                          seamless growth and innovation

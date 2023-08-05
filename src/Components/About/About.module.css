@@ -1,7 +1,7 @@
 .container{
     background: #0B0B0B;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 4% 6%;
     align-items: center;
     gap: 2rem;
@@ -13,6 +13,7 @@
     flex-direction: column;
     gap: 1.4rem;
     text-align: left;
+    width: 48%;
 }
 .span1{
     color: #FFF;
@@ -31,7 +32,7 @@ line-height: 40px; /* 133.333% */
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 22px;
 }
 .box{
     width: 408px;
@@ -64,6 +65,9 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     flex-direction: column;
     background-image: url(../../assets/linebgmbl.svg) ;
    }
+   .left{
+    width: 100%;
+   }
 
 .span1{
     font-size: 20px;
@@ -73,6 +77,8 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     font-size: 14px;
     align-self: stretch;
     text-align: center;
+    line-height: normal;
+    
 }
 .box{
     width: 100%;
