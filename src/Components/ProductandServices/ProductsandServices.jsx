@@ -6,7 +6,7 @@ import Inv from "../../assets/consultancy-logo-new.svg"
 
 
 import Batcave from "../../assets/batcave-k.svg" 
-import Trib from "../../assets/tclogonew.png"
+import Trib from "../../assets/tributor.png"
 
 import IT1 from "../../assets/itservice.svg"
 import IT2 from "../../assets/itconsultancy.svg"
@@ -54,7 +54,7 @@ const ProductsandServices = () => {
                     making it more faster and more efficient.
                 </span>
             </div>
-            <img className={css.imgs}  src={Trib} alt="" />
+            <img className={css.imgs}   src={Trib} alt="" />
             <span>Tributor</span>
             </div>
             <div className={css.products}>

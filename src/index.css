@@ -37,6 +37,14 @@ a:hover{
   cursor: pointer;
   color: #FFF;
 }
+.toast-message {
+  background: darkblue;
+  color: #fff;
+  font-size: 20px;
+  width: 34vw;
+  padding: 30px 20px;
+}
+
 @media screen and (max-width:768px){
   #myBtn{
     width: 20px;

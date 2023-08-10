@@ -7,7 +7,7 @@
     background-size: cover;
     /* background-image: url(../../assets/contactbg.png), lightgray 50% / cover no-repeat; */
    padding: 2% 4%;
-   padding-top: 5rem;
+   padding-top: 3rem;
 }
 .div1{
     display: flex;
@@ -67,14 +67,14 @@ line-height: normal;
     width: 45%;
 }
 .box{
-    height: 400px;
-    width: 70%;
+    height: 350px;
+    width: 66%;
     display: inline-flex;
-padding: 42px;
+padding: 28px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 36px;
+gap: 12px;
 border-radius: 20px;
 background: rgba(0, 0, 0, 0.30);
 backdrop-filter: blur(7.5px);
@@ -82,7 +82,7 @@ backdrop-filter: blur(7.5px);
 .box>:nth-child(1){
     color: #A3A3A3;
 text-align: center;
-font-size: 28px;
+font-size: 26px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -90,12 +90,13 @@ line-height: normal;
 .contactform{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.4rem;
     width: 100%;
 }
 .inp{
     background-color: transparent;
     border: none;
+    outline: none;
     border-bottom: 1px solid var(--grey-tone-g-8, #4C4C4C);
    
     display: flex;
@@ -129,8 +130,12 @@ color: var(--grey-tone-g-3, #CCC);
 
 font-size: 18px;
 }
+.sentbtn:hover{
+    cursor: pointer;
+}
 .aspan{
     color: var(--grey-tone-g-6, #808080);
+    font-size: 18px;
 }
 .socialiconsnew{
     display: flex;
@@ -146,6 +151,9 @@ font-size: 18px;
         background-size: contain;
         
        
+    }
+    .div1{
+        margin-top: 1rem;
     }
   
     .div2{
@@ -182,6 +190,11 @@ font-size: 18px;
         height: 300px; */
         /* width: 50%; */
     }
+    .box{
+        width: 80%;
+        padding: 12px 18px;
+        gap: 16px;
+    }
     .box>:nth-child(1){
         font-size: 18px;
     }
@@ -199,5 +212,9 @@ align-self: stretch;
 border-radius: 10px;
 background: var(--grey-tone-g-10, #191919); */
 
+    }
+    .sentbtn{
+        height: 40px;
+        font-size: 16px;
     }
 }

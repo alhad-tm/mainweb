@@ -2,7 +2,7 @@ import React from 'react'
 import css from "./Footer.module.css"
 import Logo from "../../assets/Logo.svg"
 import Twitter from "../../assets/Twitter.svg"
-import Fb from "../../assets/Facebook logo.svg"
+import Lk from "../../assets/linkedin2.svg"
 import Insta from "../../assets/instagram logo.svg"
 import Location from "../../assets/Location.svg"
 import Phone from "../../assets/Phone.svg"
@@ -29,7 +29,7 @@ Join us on our mission to make a positive impact and build a brighter tomorrow.<
                 <img src={Fb} alt="" />
                 <img src={Insta} alt="" /> */}
                 <a href="https://twitter.com/Invicious_in?s=08">  <img src={Twitter} alt="" />    </a>   
-              <img src={Fb} alt="" />  
+                <a href="https://www.linkedin.com/company/invicious">  <img src={Lk} alt="" /> </a>  
             <a href="https://instagram.com/invicious.in?igshid=MzRlODBiNWFlZA==">  <img src={Insta} alt="" /></a> 
             </div>
             </div>

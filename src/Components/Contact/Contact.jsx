@@ -1,14 +1,39 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from "@emailjs/browser";
 import css from "./Contact.module.css"
 import Location from "../../assets/map-marker 1.svg"
 import Phone from "../../assets/Phone.svg"
 import Mail from "../../assets/Mail.svg"
 import Twitter from "../../assets/Twitter.svg"
-import Fb from "../../assets/Facebook logo.svg"
+import Lk from "../../assets/linkedin2.svg"
 import Insta from "../../assets/instagram logo.svg"
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 const Contact = () => {
+    const notify = () => toast.success("Sent Successfully");
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm(
+          "service_uwefeop", 
+        "template_9a4zv6d",
+        form.current,
+        "0ShbDNI1kk0Ln2HDZ"
+        )  
+        .then(
+          (result) => { 
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text); 
+          }
+        );
+    };
   return (
     <div className={css.container} id="contact">
 
@@ -39,7 +64,7 @@ DB Road, RS Puram, Coimbatore - 641002</span>
     </div>
     <div className={css.socialiconsnew}>
     <a href="https://twitter.com/Invicious_in?s=08">  <img src={Twitter} alt="" />    </a>   
-              <img src={Fb} alt="" />  
+    <a href="https://www.linkedin.com/company/invicious">  <img src={Lk} alt="" /> </a>  
             <a href="https://instagram.com/invicious.in?igshid=MzRlODBiNWFlZA==">  <img src={Insta} alt="" /></a> 
     </div>
    
@@ -51,12 +76,14 @@ DB Road, RS Puram, Coimbatore - 641002</span>
     <div className={css.box}> 
      <span>Sent us a message</span>
 
-     <form className={css.contactform} action="">
-        <input className={css.inp} type="text" name="" id="" placeholder='Name' />
-        <input className={css.inp} type="email" name="" id="" placeholder='Mail' />
-        <input className={css.inp} type="text" name="" id="" placeholder='Subject' />
-        <input className={css.inp} type="text" name="" id="" placeholder='Message(Optional)' />
-        <button className={css.sentbtn}>Send</button>
+     <form className={css.contactform}   ref={form}
+          onSubmit={sendEmail} action="">
+        <input className={css.inp} type="text" name="to_name" id="" placeholder='Name' />
+        <input className={css.inp} type="email" name="user_email" id="" placeholder='Mail' />
+        <input className={css.inp} type="text" name="subject" id="" placeholder='Subject' />
+        <input className={css.inp} type="text" name="message" id="" placeholder='Message(Optional)' />
+        <button onClick={notify}  className={css.sentbtn}>Send</button>
+        <ToastContainer style={{width:"257px", height:"50px"}} autoClose={600} position={"bottom-center"} />
      </form>
     </div>
 </div>
@@ -65,7 +92,7 @@ DB Road, RS Puram, Coimbatore - 641002</span>
         </div>
       
     </div>
-  )
+  ) 
 }
 
 export default Contact
