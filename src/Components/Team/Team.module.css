@@ -2,6 +2,8 @@
     /* background-image: url(../../assets/cloud.png); */
     background: linear-gradient(0deg, rgba(18, 18, 18, 0.80) 0%, rgba(18, 18, 18, 0.80) 100%), 
     url(../../assets/cloud.png), lightgray 0px 0px / 100% 104.113% no-repeat;
+    background-size: cover;
+    background-position: center;
     color: yellowgreen;
     height: 710px;
     padding: 2% 6%;
@@ -88,7 +90,7 @@ line-height: normal;
 .div3{
     display: flex;
     justify-content: space-between;
-    height: 315px;
+    height: 328px;
    
    
 }

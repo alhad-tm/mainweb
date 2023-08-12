@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from "@emailjs/browser";
 import css from "./Contact.module.css"
 import Location from "../../assets/map-marker 1.svg"
@@ -12,6 +12,9 @@ import "react-toastify/dist/ReactToastify.css";
 
 
 const Contact = () => {
+  const [firstName, setFirstName] = useState('')
+  const [mail, setMail] = useState('')
+  const[subject,setSubject]=useState("")
     const notify = () => toast.success("Sent Successfully");
     const form = useRef();
 
@@ -78,12 +81,13 @@ DB Road, RS Puram, Coimbatore - 641002</span>
 
      <form className={css.contactform}   ref={form}
           onSubmit={sendEmail} action="">
-        <input className={css.inp} type="text" name="to_name" id="" placeholder='Name' />
-        <input className={css.inp} type="email" name="user_email" id="" placeholder='Mail' />
-        <input className={css.inp} type="text" name="subject" id="" placeholder='Subject' />
+        <input onChange={(e) => setFirstName(e.target.value)} className={css.inp} type="text" required name="to_name" id="" placeholder='Name' />
+        <input onChange={(e) => setMail(e.target.value)} className={css.inp} type="email" required name="user_email" id="" placeholder='Mail' />
+        <input onChange={(e) => setSubject(e.target.value)} className={css.inp} type="text" required name="subject" id="" placeholder='Subject' />
         <input className={css.inp} type="text" name="message" id="" placeholder='Message(Optional)' />
         <button onClick={notify}  className={css.sentbtn}>Send</button>
-        <ToastContainer style={{width:"257px", height:"50px"}} autoClose={600} position={"bottom-center"} />
+      
+        {firstName.length>1 && mail.length>1 && subject.length>1 ? <ToastContainer style={{width:"257px", height:"50px"}} autoClose={600} position={"bottom-center"} /> : ""}
      </form>
     </div>
 </div>
