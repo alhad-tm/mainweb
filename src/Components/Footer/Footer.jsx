@@ -8,6 +8,7 @@ import Location from "../../assets/Location.svg"
 import Phone from "../../assets/Phone.svg"
 import Mail from "../../assets/Mail.svg"
 import { Link } from 'react-scroll'
+import { Link as LinkR } from 'react-router-dom'
 
 
 const Footer = () => {
@@ -86,17 +87,12 @@ DB Road, RS Puram, Coimbatore - 641002</span>
        <div className={css.bottom}>
         {/* <div className={css.bleft}> */}
         <ul className={css.flist}>
-        {/* <li> <Link to="home" spy={true} smooth={true}> Home  </Link> </li>
-            <li> <Link to="about" spy={true} smooth={true}> About  </Link> </li>
-            <li> <Link to="products" spy={true} smooth={true}> Products and Services </Link> </li>
-            <li> <Link to="contact" spy={true} smooth={true}> Contact </Link> </li> */}
-
 
 <li> <Link to="home" spy={true} smooth={true}> Home  </Link> </li>
             <li> <Link to="about" spy={true} smooth={true}> About  </Link> </li>
         <li> <Link to="contact" spy={true} smooth={true}> Contact </Link> </li> 
-            <li>Privacy Policy</li>
-        {mobile?  <li>T & C</li> : <li>Terms & Conditions</li> }   
+            <li onClick={() => window.scrollTo(0, 0)}><LinkR to="/privacy"> Privacy Policy </LinkR> </li>
+        {mobile?  <li onClick={() => window.scrollTo(0, 0)} className={css.alink}> <LinkR to="/terms">T & C </LinkR></li> : <li onClick={() => window.scrollTo(0, 0)}> <LinkR to="/terms">Terms & Conditions </LinkR></li> }   
         </ul>
         {/* </div> */}
 

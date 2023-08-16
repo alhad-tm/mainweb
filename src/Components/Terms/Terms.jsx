@@ -8,7 +8,7 @@ const Terms = () => {
         <h1>Terms & Conditions</h1> 
         <h2>“Invicious Metacorp Private Limited”</h2>
         </div> 
-        <br /> <br />
+        {/* <br /> <br /> */}
  
 
         <div className={css.termsbackground}>

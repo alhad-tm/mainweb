@@ -123,6 +123,10 @@ margin-top: 2rem;
     cursor: pointer;
     color: #FFF;
 }
+.flist>li >a{
+    color: var(--grey-tone-g-6, #808080);
+   
+}
 .wrap{
     display: flex;
     justify-content: space-between;
