@@ -113,8 +113,10 @@ line-height: normal;
     text-align: left;
     height: 235px;
     /* justify-content: center;align-items: center; */
-  
 
+}
+.box2:hover{
+    cursor: grab;
 }
 .box2>:nth-child(1){
     

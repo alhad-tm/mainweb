@@ -28,16 +28,18 @@ Join us on our mission to make a positive impact and build a brighter tomorrow.<
                 {/* <img src={Twitter} alt="" />
                 <img src={Fb} alt="" />
                 <img src={Insta} alt="" /> */}
-                <a href="https://twitter.com/Invicious_in?s=08">  <img src={Twitter} alt="" />    </a>   
-                <a href="https://www.linkedin.com/company/invicious">  <img src={Lk} alt="" /> </a>  
-            <a href="https://instagram.com/invicious.in?igshid=MzRlODBiNWFlZA==">  <img src={Insta} alt="" /></a> 
+                <a href="https://twitter.com/Invicious_in?s=08" target="_blank" rel="noopener noreferrer">  <img src={Twitter} alt="" />    </a>   
+                <a href="https://www.linkedin.com/company/invicious" target="_blank" rel="noopener noreferrer">  <img src={Lk} alt="" /> </a>  
+            <a href="https://instagram.com/invicious.in?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">  <img src={Insta} alt="" /></a> 
             </div>
             </div>
 <div className={css.wrap}>
             <div className={css.m2}>
                 <span>Products & Services</span>
-                <span>Invicious Consultancy Service</span>
-                <span>Batcave</span>
+               
+                <a href="https://invcs.in/" target="_blank" rel="noopener noreferrer">   <span>Invicious Consultancy Service</span></a>
+                <a href="https://batcave.co.in/" target="_blank" rel="noopener noreferrer">  <span>Batcave</span></a>
+              
                 <span>Tributors</span>
                 <span>Green Castle</span>
             </div>

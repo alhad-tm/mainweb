@@ -26,7 +26,7 @@ const Contact = () => {
           "service_uwefeop", 
         "template_9a4zv6d",
         form.current,
-        "0ShbDNI1kk0Ln2HDZ"
+        "0ShbDNI1kk0Ln2HD"
         )  
         .then(
           (result) => { 
@@ -66,9 +66,9 @@ DB Road, RS Puram, Coimbatore - 641002</span>
     <a href="mailto: contact@invicious.in"> <span className={css.aspan} >contact@invicious.in</span> </a>  
     </div>
     <div className={css.socialiconsnew}>
-    <a href="https://twitter.com/Invicious_in?s=08">  <img src={Twitter} alt="" />    </a>   
-    <a href="https://www.linkedin.com/company/invicious">  <img src={Lk} alt="" /> </a>  
-            <a href="https://instagram.com/invicious.in?igshid=MzRlODBiNWFlZA==">  <img src={Insta} alt="" /></a> 
+    <a href="https://twitter.com/Invicious_in?s=08" target="_blank" rel="noopener noreferrer">  <img src={Twitter} alt="" />    </a>   
+    <a href="https://www.linkedin.com/company/invicious" target="_blank" rel="noopener noreferrer" >   <img src={Lk} alt="" /> </a>  
+            <a href="https://instagram.com/invicious.in?igshid=MzRlODBiNWFlZA=="  target="_blank" rel="noopener noreferrer">  <img src={Insta} alt="" /></a> 
     </div>
    
 </div>
