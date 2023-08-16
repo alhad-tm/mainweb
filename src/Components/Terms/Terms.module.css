@@ -1,0 +1,49 @@
+.container{
+    color: #000000;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  background: #121212;
+  background-image: url(../../assets/linebg.svg);
+}
+.heading{
+    text-align: center;
+    width: 86%;
+    color: #FFFFFF;
+    margin: auto;
+}
+.heading>:nth-child(2){
+    color: #505050;
+}
+
+.termsbackground{
+    width: 86%;
+    border-radius: 20px;
+    padding: 1% 2%;
+    color: #CCCCCC;
+    font-size: 16px;
+    font-weight: 200;
+    margin: auto;
+}
+.termsbackground>h4{
+    color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+  .termsbackground{
+    font-size:12px;
+  }
+  .heading{
+    width: 80%;
+  }
+  .heading>:nth-child(1){
+    font-size: 20px;
+  }
+  .heading>:nth-child(2){
+    font-size: 16px;
+  }
+
+
+}

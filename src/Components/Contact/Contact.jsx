@@ -26,7 +26,7 @@ const Contact = () => {
           "service_uwefeop", 
         "template_9a4zv6d",
         form.current,
-        "0ShbDNI1kk0Ln2HD"
+        "0ShbDNI1kk0Ln2HDZ"
         )  
         .then(
           (result) => { 
@@ -87,7 +87,7 @@ DB Road, RS Puram, Coimbatore - 641002</span>
         <input className={css.inp} type="text" name="message" id="" placeholder='Message(Optional)' />
         <button onClick={notify}  className={css.sentbtn}>Send</button>
       
-        {firstName.length>1 && mail.length>1 && subject.length>1 ? <ToastContainer style={{width:"257px", height:"50px"}} autoClose={600} position={"bottom-center"} /> : ""}
+        {firstName.length>2 && mail.length>5 && subject.length>5  ? <ToastContainer style={{width:"257px", height:"50px"}} autoClose={600} position={"bottom-center"} /> : ""}
      </form>
     </div>
 </div>
