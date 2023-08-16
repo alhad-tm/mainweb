@@ -1,0 +1,109 @@
+import React from 'react'
+import css from "./Careers.module.css"
+import Location from "../../assets/Location.svg"
+
+const Careers = () => {
+  return (
+    <div className={css.container}>
+
+        <div className={css.div1}>
+            <span>Career</span>
+            <span>“Invicious Metacorp Private Limited”</span>
+            <span>Join our team of innovators and change-makers! <br />
+              Check out our current job openings and start your journey towards a rewarding career with us.</span>
+        </div>
+        
+
+        <div className={css.div2}>
+            <span>Workculture</span>
+
+            <span>
+            At Invicious, we foster a dynamic and <span className={css.spaninside}> agile work culture </span>  that promotes collaboration, creativity and innovation. We believe that our success is built on the <span className={css.spaninside}> strength of our workforce </span> . We strive to create an environment where everyone can <span className={css.spaninside}>  thrive and grow. </span>  <br /> <br />
+
+We <span className={css.spaninside}> encourage our teammates </span> to share their insights and perspectives freely, and promote a work <span className={css.spaninside}>  environment that best suits their preferences. </span> We priorities personal and professional growth and development, providing opportunities to take ownership of their career paths and to <span className={css.spaninside}>  pursue their passions within our organization. </span>  
+            </span>
+        </div>
+
+
+        <div className={css.div3}>
+
+            <div className={css.div3span1}>
+                <span>Job Opportunities</span>
+            </div>
+
+            <div className={css.boxset}>
+                <div className={css.box}>
+                    <div className={css.b1}>
+                        <button>Full time</button>
+                        <span>11 hours ago</span>
+                    </div>
+
+                    <div className={css.b2}>
+                        <span>Senior UI/UX Designer</span>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore 
+                             vitae architecto obcaecati quo dolor delectus dignissimos?</span>
+                             <div className={css.hrdiv}></div>
+                    </div>
+
+                    <div className={css.b3}>
+                        <div className={css.b3left}>
+                            <img src={Location} alt="" />
+                            <span>Coimbatore</span>
+                        </div>
+                        <div className={css.b3right}> <button>Apply now</button></div>
+                    </div>
+                </div>
+                <div className={css.box}>
+                    <div className={css.b1}>
+                        <button>Full time</button>
+                        <span>11 hours ago</span>
+                    </div>
+
+                    <div className={css.b2}>
+                        <span>Senior UI/UX Designer</span>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore 
+                             vitae architecto obcaecati quo dolor delectus dignissimos?</span>
+                             <div className={css.hrdiv}></div>
+                    </div>
+
+                    <div className={css.b3}>
+                        <div className={css.b3left}>
+                            <img src={Location} alt="" />
+                            <span>Coimbatore</span>
+                        </div>
+                        <div className={css.b3right}> <button>Apply now</button></div>
+                    </div>
+                </div>
+                <div className={css.box}>
+                    <div className={css.b1}>
+                        <button>Full time</button>
+                        <span>11 hours ago</span>
+                    </div>
+
+                    <div className={css.b2}>
+                        <span>Senior UI/UX Designer</span>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore 
+                             vitae architecto obcaecati quo dolor delectus dignissimos?</span>
+                             <div className={css.hrdiv}></div>
+                    </div>
+
+                    <div className={css.b3}>
+                        <div className={css.b3left}>
+                            <img src={Location} alt="" />
+                            <span>Coimbatore</span>
+                        </div>
+                        <div className={css.b3right}> <button>Apply now</button></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+      
+    </div>
+  )
+}
+
+export default Careers

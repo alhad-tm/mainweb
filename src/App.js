@@ -9,6 +9,7 @@ import Contact from './Components/Contact/Contact';
 import FirstSet from './Components/FirstSet/FirstSet';
 import Terms from './Components/Terms/Terms';
 import Privacy from './Components/Privacy/Privacy';
+import Careers from './Components/Careers/Careers';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" exact element={<FirstSet/>} />
           <Route path="/terms" exact element={<Terms/>} />
           <Route path="/privacy" exact element={<Privacy/>} />
+          <Route path="/career" exact element={<Careers/>} />
 
           {/* <Route path="*" exact element={<PageNotFound/>} /> */}
 
