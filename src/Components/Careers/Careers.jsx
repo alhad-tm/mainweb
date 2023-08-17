@@ -30,11 +30,15 @@ We <span className={css.spaninside}> encourage our teammates </span> to share th
             <div className={css.div3span1}>
                 <span>Job Opportunities</span>
             </div>
+               {/* absolute */}
+               <div className={css.noopening}>
+                <span>Currently no openings available</span>
+            </div>
 
             <div className={css.boxset}>
                 <div className={css.box}>
                     <div className={css.b1}>
-                        <button>Full time</button>
+                        <button className={css.fulltime}>Full time</button>
                         <span>11 hours ago</span>
                     </div>
 
@@ -50,17 +54,17 @@ We <span className={css.spaninside}> encourage our teammates </span> to share th
                             <img src={Location} alt="" />
                             <span>Coimbatore</span>
                         </div>
-                        <div className={css.b3right}> <button>Apply now</button></div>
+                        <div className={css.b3right}> <button className={css.applynow}>Apply now</button></div>
                     </div>
                 </div>
                 <div className={css.box}>
                     <div className={css.b1}>
-                        <button>Full time</button>
+                        <button className={css.fulltime}>Full time</button>
                         <span>11 hours ago</span>
                     </div>
 
                     <div className={css.b2}>
-                        <span>Senior UI/UX Designer</span>
+                        <span>Full Stack Developer</span>
                         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore 
                              vitae architecto obcaecati quo dolor delectus dignissimos?</span>
                              <div className={css.hrdiv}></div>
@@ -71,17 +75,17 @@ We <span className={css.spaninside}> encourage our teammates </span> to share th
                             <img src={Location} alt="" />
                             <span>Coimbatore</span>
                         </div>
-                        <div className={css.b3right}> <button>Apply now</button></div>
+                        <div className={css.b3right}> <button className={css.applynow}>Apply now</button></div>
                     </div>
                 </div>
                 <div className={css.box}>
                     <div className={css.b1}>
-                        <button>Full time</button>
+                        <button className={css.fulltime}>Full time</button>
                         <span>11 hours ago</span>
                     </div>
 
                     <div className={css.b2}>
-                        <span>Senior UI/UX Designer</span>
+                        <span>UI Developer</span>
                         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore 
                              vitae architecto obcaecati quo dolor delectus dignissimos?</span>
                              <div className={css.hrdiv}></div>
@@ -92,12 +96,13 @@ We <span className={css.spaninside}> encourage our teammates </span> to share th
                             <img src={Location} alt="" />
                             <span>Coimbatore</span>
                         </div>
-                        <div className={css.b3right}> <button>Apply now</button></div>
+                        <div className={css.b3right}> <button className={css.applynow}>Apply now</button></div>
                     </div>
                 </div>
 
 
             </div>
+         
 
 
         </div>
