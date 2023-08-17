@@ -3,7 +3,7 @@ import css from "./Careers.module.css"
 import Location from "../../assets/Location.svg"
 
 const Careers = () => {
-    const mobile = window.innerWidth <= 768 ? true : false;
+    // const mobile = window.innerWidth <= 768 ? true : false;
   return (
     <div className={css.container}>
 

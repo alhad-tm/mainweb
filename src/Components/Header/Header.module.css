@@ -36,6 +36,9 @@ line-height: normal;
   gap: 2rem;
    margin-right: 7rem;
 }
+.ulist>li>a{
+    color: var(--logo-color-1, #B3B3B3);
+}
 
 @media screen and (max-width:768px){
     /* .container{
