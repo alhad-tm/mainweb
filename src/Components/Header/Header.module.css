@@ -9,7 +9,7 @@ align-items: center;
 padding: 1% 4%;
 position: fixed;
 width: 100%;
-z-index: 5;
+z-index: 15;
 }
 .ulist>li{
     list-style: none;
@@ -44,7 +44,7 @@ line-height: normal;
     } */
     .container{
         width: 94%;
-        z-index: 2;
+        z-index: 15;
     }
     .logo{
         height: 50px;

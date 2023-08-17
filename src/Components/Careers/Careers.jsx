@@ -3,6 +3,7 @@ import css from "./Careers.module.css"
 import Location from "../../assets/Location.svg"
 
 const Careers = () => {
+    const mobile = window.innerWidth <= 768 ? true : false;
   return (
     <div className={css.container}>
 
@@ -36,7 +37,9 @@ We <span className={css.spaninside}> encourage our teammates </span> to share th
             </div>
 
             <div className={css.boxset}>
-                <div className={css.box}>
+       
+        
+                      <div className={css.box}>
                     <div className={css.b1}>
                         <button className={css.fulltime}>Full time</button>
                         <span>11 hours ago</span>
@@ -98,13 +101,21 @@ We <span className={css.spaninside}> encourage our teammates </span> to share th
                         </div>
                         <div className={css.b3right}> <button className={css.applynow}>Apply now</button></div>
                     </div>
-                </div>
+                </div> 
 
 
             </div>
-         
 
+        </div>
 
+        <div className={css.div4}>
+            <div className={css.lastbox}>
+                <span>No suitable job opening found? Don't worry! We're always looking for passionate and talented individuals to join our team.
+                     Send us your resume and tell us why you'd be a great fit. Let's build a better future together!</span>
+                     <div className={css.mail}>
+                        <a href="mailto: career@invicious.in"> <span>career@invicious.in</span> </a>  
+                     </div>
+            </div>
         </div>
       
     </div>

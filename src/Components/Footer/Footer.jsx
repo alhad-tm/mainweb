@@ -51,7 +51,7 @@ Join us on our mission to make a positive impact and build a brighter tomorrow.<
                 <span>Organization Team</span>
                 <span>Our partners</span>
                 <span>Cookies Policy</span>
-                <span>Careers</span>
+              <LinkR to="/career">  <span onClick={()=>window.scrollTo(0,0)}>Careers</span> </LinkR>  
             </div> </div>
 
             <div className={css.m4}>
