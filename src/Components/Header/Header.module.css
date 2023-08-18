@@ -39,6 +39,9 @@ line-height: normal;
 .ulist>li>a{
     color: var(--logo-color-1, #B3B3B3);
 }
+.ulist>li>a:hover{
+    color: #FFF;
+}
 
 @media screen and (max-width:768px){
     /* .container{

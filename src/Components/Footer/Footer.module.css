@@ -72,6 +72,10 @@
 .m3>a{
     color: var(--grey-tone-g-6, #808080);
 }
+.m3>a:hover{
+    color: #FFF;
+    cursor: pointer;
+}
 .m4{
     display: flex;
     flex-direction: column;
@@ -131,6 +135,9 @@ margin-top: 2rem;
     color: var(--grey-tone-g-6, #808080);
    
 }
+.flist>li>a:hover{
+    color: #FFF;
+}
 .wrap{
     display: flex;
     justify-content: space-between;
@@ -139,6 +146,9 @@ margin-top: 2rem;
 }
 .aspan{
     color: var(--grey-tone-g-6, #808080);
+}
+.mset>a>span:hover{
+    color: #FFF;
 }
 @media screen and (max-width:768px){
    
