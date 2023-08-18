@@ -9,6 +9,7 @@ import Phone from "../../assets/Phone.svg"
 import Mail from "../../assets/Mail.svg"
 import { Link } from 'react-scroll'
 import { Link as LinkR } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 
 const Footer = () => {
@@ -40,15 +41,17 @@ Join us on our mission to make a positive impact and build a brighter tomorrow.<
                
                 <a href="https://invcs.in/" target="_blank" rel="noopener noreferrer">   <span>Invicious Consultancy Service</span></a>
                 <a href="https://batcave.co.in/" target="_blank" rel="noopener noreferrer">  <span>Batcave</span></a>
+                <a href="https://tributor.in/" target="_blank" rel="noopener noreferrer">  <span>Tributor</span></a>
+                <a href="https://greenc.netlify.app/" target="_blank" rel="noopener noreferrer">   <span>Green Castle</span></a>
               
-                <span>Tributors</span>
-                <span>Green Castle</span>
+               
+               
             </div>
 
             <div className={css.m3}>
                 <span>Important links</span>
 
-                <span>Organization Team</span>
+            <HashLink to="/#team"> <span>Organization Team</span> </HashLink>    
                 <span>Our partners</span>
                 <span>Cookies Policy</span>
               <LinkR to="/career">  <span onClick={()=>window.scrollTo(0,0)}>Careers</span> </LinkR>  
@@ -88,9 +91,9 @@ DB Road, RS Puram, Coimbatore - 641002</span>
         {/* <div className={css.bleft}> */}
         <ul className={css.flist}>
 
-<li> <Link to="home" spy={true} smooth={true}> Home  </Link> </li>
-            <li> <Link to="about" spy={true} smooth={true}> About  </Link> </li>
-        <li> <Link to="contact" spy={true} smooth={true}> Contact </Link> </li> 
+<li> <HashLink to="/#home" spy={true} smooth={true}> Home  </HashLink> </li>
+            <li> <HashLink to="/#about" spy={true} smooth={true}> About  </HashLink> </li>
+        <li> <HashLink to="/#contact" spy={true} smooth={true}> Contact </HashLink> </li> 
             <li onClick={() => window.scrollTo(0, 0)}><LinkR to="/privacy"> Privacy Policy </LinkR> </li>
         {mobile?  <li onClick={() => window.scrollTo(0, 0)} className={css.alink}> <LinkR to="/terms">T & C </LinkR></li> : <li onClick={() => window.scrollTo(0, 0)}> <LinkR to="/terms">Terms & Conditions </LinkR></li> }   
         </ul>

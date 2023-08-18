@@ -82,6 +82,15 @@ line-height: 32px; /* 177.778% */
     color: rgb(152, 152, 188);
     padding: 2% 8%;
 }
+.div3span1>:nth-child(1){
+    color: #E8E8E8;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 .boxset{
     width: 100%;
     display: flex;
@@ -197,7 +206,7 @@ z-index: 2;
     align-items: center;
     justify-content: center;
     padding: 1% 8%;
-    margin-top: 1rem;
+  padding-bottom: 3rem;
 }
 .lastbox{
     display: flex;

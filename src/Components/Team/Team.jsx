@@ -9,7 +9,7 @@ import "swiper/css/pagination"
 
 const Team = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='team'>
      <div className={css.div1}>
         <span>“Driven by Innovation and collaboration”</span>
         <span> Meet the Invicious Team</span>
