@@ -22,12 +22,12 @@
 .termsbackground{
     width: 86%;
     border-radius: 20px;
-    padding: 1% 2%;
+    padding: 4% 2%;
     color: #808080;
     font-size: 16px;
     font-weight: 200;
     margin: auto;
-    margin-top: 2rem;
+    /* margin-top: 4rem; */
 }
 .termsbackground>h4{
     color: #B3B3B3;
